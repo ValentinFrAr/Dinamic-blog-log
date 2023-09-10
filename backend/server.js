@@ -12,7 +12,7 @@ const app = express();
 //Autorisation CORS
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "*",
     credentials: true,
     optionsSuccessStatus: 200,
   })
